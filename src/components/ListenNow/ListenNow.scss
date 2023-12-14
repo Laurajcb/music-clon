@@ -1,0 +1,108 @@
+@import "../../Styles/main.scss";
+
+.ListenNow-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  .ListenNow-Head {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 6rem;
+    height: 2rem;
+    h2 {
+      margin: 0;
+    }
+    img {
+      height: 2rem;
+      width: 2rem;
+    }
+  }
+  .ListenNow-card {
+    margin-top: 3rem;
+    width: 21.31rem;
+    height: 28.875rem;
+    border-radius: 1rem;
+    background: linear-gradient(
+      180deg,
+      #e80a0a 0%,
+      rgba(70, 49, 49, 0.33) 66.88%,
+      rgba(198, 40, 40, 0.12) 88.02%,
+      rgba(90, 22, 22, 0) 100%,
+      rgba(123, 39, 39, 0.06) 100%,
+      rgba(154, 33, 33, 0.07) 100%
+    );
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    p {
+      font-size: 1.5rem;
+      font-weight: 100;
+      text-align: center;
+      padding: 1.6rem 3rem;
+    }
+    .ListenNow-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 4rem;
+    }
+    .ListenNow-add {
+      margin-top: 7rem;
+      .ListenNow-add-p {
+        font-size: 0.9rem;
+        padding: 0;
+        margin-top: 0;
+      }
+      .ListenNow-add-div {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 4rem;
+      }
+    }
+  }
+  .ListenNow-container-songs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.9rem;
+    border-bottom: rgba(255, 255, 255, 0.21) 0.1rem solid;
+    h3 {
+      font-size: 1rem;
+    }
+    .ListenNow-slider-container {
+      display: flex;
+      flex-direction: row;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x proximity;
+      margin-bottom: 0.6rem;
+      height: 12rem;
+      max-width: 100%;
+      overflow: scroll;
+      &::-webkit-scrollbar{
+        display: none
+      }
+      .ListenNow-song {
+        img {
+          width: 8.75rem;
+          height: 8.875rem;
+          border-radius: 0.25rem;
+          margin-right: 0.3rem;
+        }
+        h5,
+        p {
+          margin: 0;
+          font-size: smaller;
+          font-weight: 100;
+        }
+        h5 {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+  .last-one {
+    border: none;
+    margin-bottom: 0;
+  }
+}

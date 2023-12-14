@@ -1,0 +1,155 @@
+@import "../../Styles/main.scss";
+
+.CreatedNewPlaylist-container {
+  padding-left: 1.2rem;
+  padding-top: 1.2rem;
+  height: calc(100vh - 5.2rem);
+  .CreatedNewPlaylist-header {
+    display: flex;
+    flex-direction: row;
+    color: $R300;
+    justify-content: space-between;
+    margin-right: 1rem;
+    .CreatedNewPlaylist-header-btn {
+      display: flex;
+      flex-direction: row;
+      font-size: 1rem;
+      .CreatedNewPlaylist-btn-back {
+        margin-right: 0.5rem;
+        .CreatedNewPlaylist-icon {
+          font-size: 1.5rem;
+          font-weight: 300;
+        }
+      }
+      .CreatedNewPlaylist-title {
+        margin: 0;
+        font-size: 1rem;
+      }
+    }
+    .CreatedNewPlaylist-span {
+      font-weight: 600;
+    }
+  }
+  .CreatedNewPlaylist-content {
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    h2 {
+      margin-bottom: 0.5rem;
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
+    .CreatedNewPlaylist-search-bar {
+      display: flex;
+      flex-direction: row;
+      background-color: $bg100;
+      color: $W500;
+      padding: 0.5rem;
+      align-items: center;
+      justify-content: flex-start;
+      width: 90%;
+      border-radius: 0.5rem;
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 42rem;
+        left: 50%;
+        width: 16rem;
+        border-bottom: 0.01rem solid $bg100;
+        transform: translateX(-24%);
+      }
+      .CreatedNewPlaylist-label {
+        margin-left: 0.5rem;
+        font-size: 1rem;
+        font-weight: 400;
+      }
+      .CreatedNewPlaylist-input {
+        background-color: $bg100;
+        border: none;
+        width: 50%;
+      }
+    }
+    .CreatedNewPlaylist-album {
+      display: flex;
+      color: $R300;
+      font-size: 1.2rem;
+      font-weight: 400;
+      padding-bottom: 1rem;
+      position: relative;
+      margin-top: 2rem;
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 16rem;
+        border-bottom: 0.01rem solid $bg100;
+        transform: translateX(-28%);
+      }
+      .CreatedNewPlaylist-album-content {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+        .CreatedNewPlaylist-img {
+          width: 5.6875rem;
+          height: 5.5rem;
+          background-color: $bg100;
+          margin-right: 1rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .CreatedNewPlaylist-icon {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
+    .CreatedNewPlaylist-album-with-icon {
+      display: flex;
+      flex-direction: row;
+      margin-top: 1rem;
+      .CreatedNewPlaylist-img {
+        width: 5.6875rem;
+        height: 5.5rem;
+        background-color: $bg100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
+        .CreatedNewPlaylist-icon {
+          font-size: 3rem;
+          color: $R300;
+        }
+      }
+      .CreatedNewPlaylist-arrow {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+        .CreatedNewPlaylist-p {
+          margin: 0;
+          color: #fff;
+          font-weight: 400;
+          margin-right: 5rem;
+          
+        }
+        &:visited {
+          text-decoration: none;
+        }
+        .CreatedNewPlaylist-arrow-right {
+          color: #8F8E8E;
+          font-size: 1.2rem;
+        }
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 27rem;
+        left: 50%;
+        width: 16rem;
+        border-bottom: 0.01rem solid $bg100;
+        transform: translateX(-24%);
+      }
+    }
+  }
+}

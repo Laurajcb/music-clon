@@ -1,0 +1,61 @@
+@import "../../Styles/main.scss";
+
+.menuLibrary-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.5rem 9rem 1.5rem;
+  .menuLibrary-done_btn {
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    h4 {
+      color: $R300;
+    }
+  }
+  h1 {
+    font-size: 2rem;
+    border-bottom: 1px solid $B300;
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .menuLibrary-options {
+    display: flex;
+    flex-direction: column;
+    .menuLibrary-container-menu {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.5rem;
+      .menuLibrary-icon {
+        padding-top: 1rem;
+      }
+      .menuLibrary-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .menuLibrary-circle {
+          color: $B300;
+          font-size: 1.5rem;
+          padding-right: 0.8rem;
+        }
+        .menuLibrary-circleCheck {
+          color: $R300;
+          font-size: 1.5rem;
+          padding-right: 0.8rem;
+        }
+        .icon {
+          color: $R300;
+          font-size: 1.5rem;
+          padding-right: 0.8rem;
+        }
+        p {
+          font-size: 1.2rem;
+          margin: 1rem 0;
+        }
+      }
+      .menuLibrary-icon{
+        color: $B300;
+      }
+    }
+  }
+}

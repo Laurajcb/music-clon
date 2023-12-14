@@ -1,0 +1,22 @@
+@import "../../Styles/main.scss";
+
+.PlayerViewBar-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  background-color: $bg;
+  .icon-note {
+    font-size: 1.5rem;
+    background-color: $B400;
+    color: $B300;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+  }
+  .PlayerViewBar-icons {
+    .icon {
+      font-size: 2rem;
+    }
+  }
+}

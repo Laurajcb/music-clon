@@ -1,0 +1,71 @@
+@import "../../Styles/main.scss";
+
+.NewPlayList-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  .NewPlayList-header {
+    display: flex;
+    flex-direction: row;
+    color: $R300;
+    justify-content: space-between;
+    .NewPlayList-header-btn {
+      display: flex;
+      flex-direction: row;
+      font-size: 1rem;
+      .NewPlayList-btn-back {
+        margin-right: 0.5rem;
+        .NewPlayList-icon {
+          font-size: 1.5rem;
+          font-weight: 300;
+        }
+      }
+      .NewPlayList-title {
+        margin: 0;
+        font-size: 1rem;
+      }
+    }
+    .NewPlayList-span {
+      font-weight: 600;
+    }
+  }
+  .NewPlayList-main-title {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  .NewPlayList-create-playlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 14.3rem);
+    margin-left: 3.5rem;
+    padding-bottom: 2rem;
+    h5 {
+      font-size: 1.2rem;
+      margin: 0;
+      font-weight: 500;
+    }
+    p {
+      font-size: 1rem;
+      margin: 0;
+      font-weight: 200;
+    }
+    .NewPlayList-link {
+      text-decoration: none;
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.8rem;
+        width: 16rem;
+        height: 2.5625rem;
+        border-radius: 0.5rem;
+        background-color: $R300;
+        color: $W300;
+        margin-top: 1rem;
+        border: none;
+        font-weight: 600;
+      }
+    }
+  }
+}

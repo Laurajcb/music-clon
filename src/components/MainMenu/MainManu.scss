@@ -1,0 +1,31 @@
+@import "../../Styles/main.scss";
+
+.MainMenu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: $bg;
+  padding: 0.8rem 0;
+  position: sticky;
+  bottom: 0;
+  .MainMenu-link {
+    text-decoration: none;
+    .MainMenu-article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .MainMenu-icon {
+        width: 1.25rem;
+        height: 1.25rem;
+      }
+      h5 {
+        color: $B100;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.3125rem;
+        margin: 0;
+        letter-spacing: -0.02rem;
+      }
+    }
+  }
+}

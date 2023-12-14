@@ -1,0 +1,218 @@
+@import "../../Styles/main.scss";
+
+.UntitledPlaylist {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  height: calc(100vh - 4rem);
+  .UntitledPlaylist-header {
+    color: $R300;
+    display: flex;
+    justify-content: space-between;
+    .UntitlePlaylist-back {
+      margin-left: 0.5rem;
+      .UntitlePlaylist-back-icon {
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+      &:visited {
+        color: $R300;
+      }
+    }
+    .UntitlePlaylist-back-dots-container {
+      display: flex;
+      align-items: center;
+      background-color: $bg100;
+      border-radius: 3rem;
+      margin-right: 1rem;
+      .UntitlePlaylist-back-dots {
+        padding: 0.04rem 0.1rem;
+        font-size: 1.2rem;
+      }
+    }
+  }
+  .UntitledPlaylist-coverPl-container {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    .UntitledPlaylist-coverPl {
+      width: 14.375rem;
+      height: 15rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $bg100;
+      flex-wrap: wrap;
+
+      .UntitledPlaylist-coverPl-menu {
+        display: flex;
+        font-size: 1.5rem;
+        align-items: center;
+        color: $B300;
+        position: absolute;
+      }
+    }
+
+    .UntitledPlaylist-coverPl-menu2 {
+      color: $B300;
+      font-size: 3.8rem;
+      position: absolute;
+    }
+
+    .UntitledPlaylist-coverPl-music-icon {
+      font-size: 4rem;
+      color: $B300;
+      position: absolute;
+      right: 7rem;
+    }
+  }
+
+  .UntitledPlaylist-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+    .UntitledPlaylist-text1 {
+      margin: 0;
+      font-size: 1.25rem;
+      font-weight: 400;
+    }
+    .UntitledPlaylist-text2 {
+      margin: 0;
+      font-size: 0.625rem;
+      font-weight: 400;
+      line-height: 1.3125rem;
+    }
+  }
+  .UntitledPlaylist-bnts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    button {
+      display: flex;
+      width: 7.0625rem;
+      padding: 0.625rem;
+      justify-content: center;
+      align-items: center;
+      gap: 0.625rem;
+      border-radius: 0.5rem;
+      background: $bg100;
+      border: none;
+      color: $R300;
+      font-size: 1rem;
+    }
+  }
+  .UntitledPlaylist-song-preview {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    border-top: 0.01rem rgba(255, 255, 255, 0.21) solid;
+    .UntitledPlaylist-song-border {
+      display: flex;
+      flex-direction: row;
+      padding-top: 1rem;
+      margin-left: 1rem;
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 22rem;
+        left: 50%;
+        width: 20rem;
+        border-bottom: 0.01rem solid $bg100;
+        transform: translateX(-40%);
+      }
+      .UntitledPlaylist-song-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 0.25rem;
+        background: rgba(68, 68, 68, 0.8);
+        .UntitledPlaylist-song-note {
+          font-size: 2rem;
+          color: $B200;
+        }
+      }
+      .UntitledPlaylist-song-txt {
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+        .UntitledPlaylist-txt1 {
+          margin: 0;
+          font-size: 0.875rem;
+          font-style: normal;
+          font-weight: 500;
+        }
+        .UntitledPlaylist-txt2 {
+          margin: 0;
+          font-size: 0.75rem;
+          font-style: normal;
+          font-weight: 200;
+        }
+      }
+      .UntitledPlaylist-song-icons {
+        display: flex;
+        flex-direction: row;
+        margin-left: 5rem;
+        align-items: center;
+        justify-content: space-around;
+        width: 4rem;
+        .UntitledPlaylist-song-circle {
+          color: $bg100;
+          font-size: 0.9rem;
+        }
+        .UntitledPlaylist-btn-dots-menu{
+          color: $W300;
+          background-color: $black;
+          border: none;
+        }
+      }
+    }
+  }
+  p {
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 1rem;
+    padding-top: 1rem;
+  }
+  .UntitledPlaylis-menu-dots {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    border-radius: 0.5rem;
+    width: 60%;
+    position: absolute;
+    top: 13rem;
+    left: 9rem;
+    .UntitledPlaylis-menu-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0.5rem 0.625rem;
+      justify-content: space-between;
+      background-color: $bg100;
+      &:first-child{
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+      }
+      &:last-child {
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+      }
+      .UntitledPlaylis-menu-dots-p {
+        padding: 0;
+        margin: 0;
+        font-size: 1rem;
+      }
+      .red {
+        color: $R300;
+      }
+      .UntitledPlaylis-menu-dots-icon {
+        margin-left: auto;
+      }
+    }
+  }
+}

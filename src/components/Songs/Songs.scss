@@ -1,0 +1,151 @@
+@import "../../Styles/main.scss";
+
+.background-blur {
+  display: none;
+}
+.songs-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 0 1rem 0.3rem;
+  z-index: 0;
+  .songs-header {
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    color: $R300;
+    .songs-header-right {
+      display: flex;
+      flex-direction: row;
+      font-size: 1.1rem;
+      font-style: normal;
+      font-weight: 800;
+      .songs-link {
+        text-decoration: none;
+        color: $R300;
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+    }
+    .songs-sort {
+      position: absolute;
+      right: 2rem;
+    }
+    .artis-menu-ul {
+      position: absolute;
+      z-index: 3;
+      bottom: 36rem;
+      left: 6rem;
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      width: 17.5625rem;
+      list-style: none;
+      background-color: $B300;
+      gap: 0.1rem;
+      padding: 0;
+      
+      .artis-menu-item {
+        font-size: 1rem;
+        font-weight: 400;
+        background-color: $bg;
+        padding: 0.625rem 0.625rem 0.625rem 0.5rem;
+        .artis-menu-item-icon {
+          margin-right: 0.7rem;
+          font-size: 1.1rem;
+        }
+      }
+      .item {
+        padding-left: 2rem;
+      }
+    }
+    .songs-main-title {
+      color: white;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .songs-bnts {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 1rem;
+      button {
+        display: flex;
+        width: 10rem;
+        padding: 0.625rem 0.75rem 0.625rem 0.8125rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 0.5rem;
+        background: $bg100;
+        border: none;
+        color: $R300;
+        font-size: 1rem;
+        margin-right: 2rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .songs-album-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .song-album {
+      display: flex;
+      flex-direction: column;
+      .song-album-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 1.5rem;
+        text-decoration: none;
+        img {
+          width: 3.5rem;
+          height: 3.5rem;
+          border-radius: 0.375rem;
+        }
+        .border-container {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding-bottom: 0.5rem;
+          border-bottom: 0.1rem solid $bg100;
+          .song-album-titles {
+            padding-left: 1rem;
+            margin-right: 11rem;
+            h5 {
+              color: white;
+              font-size: 0.875rem;
+              font-style: normal;
+              font-weight: 600;
+              margin-bottom: 0.5rem;
+              margin-top: 0;
+            }
+            h6 {
+              margin-top: 0;
+              margin-bottom: 0.5rem;
+              color: rgba(255, 255, 255, 0.6);
+              font-size: 0.8125rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+          }
+          .song-album-icon {
+            color: $B400;
+          }
+        }
+      }
+    }
+    .song-abc-bar {
+      display: flex;
+      flex-direction: column;
+      color: $R300;
+      font-weight: 800;
+      margin-top: 1rem;
+      span{
+        margin: 0.1rem 0 ;
+        font-size: 0.7rem;
+      }
+    }
+  }
+}

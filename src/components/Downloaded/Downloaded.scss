@@ -1,0 +1,83 @@
+@import "../../Styles/main.scss";
+
+.downloaded-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 0 1rem 1.2rem;
+  .downloaded-header {
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: row;
+    color: $R300;
+    justify-content: space-between;
+    .downloaded-header-left {
+      font-size: 1rem;
+      font-weight: 800;
+      display: flex;
+      .downloaded-link {
+        text-decoration: none;
+        color: $R300;
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+    }
+    .downloaded-edit {
+      margin-right: 1rem;
+      font-size: 1rem;
+      font-weight: 800;
+      text-decoration: none;
+      color: $R300;
+    }
+  }
+
+  .library-list {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    .txt-decoration {
+      text-decoration: none;
+      .library-options {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-top: 0.07rem solid rgba(255, 255, 255, 0.21);
+        padding-top: 1.2rem;
+        padding-bottom: 1rem;
+        align-items: center;
+        padding-right: 0.6rem;
+        text-decoration: none;
+        color: white;
+        .library-optios-iconLabel {
+          display: flex;
+          align-items: center;
+          span {
+            padding-left: 0.6rem;
+          }
+          .library-icon {
+            color: $R300;
+            stroke: $R300;
+            background-color: transparent;
+          }
+        }
+        .iconRight {
+          color: $B200;
+        }
+      }
+    }
+    .border-botton {
+      border-bottom: 0.07rem solid rgba(255, 255, 255, 0.21);
+    }
+  }
+
+  .downloaded-album-section {
+    margin-top: 3rem;
+    .downloaded-img {
+      width: 9rem;
+      height: 9rem;
+    }
+    p{
+      font-weight: 200;
+      margin-bottom: 6rem;
+    }
+  }
+}

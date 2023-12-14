@@ -17,47 +17,52 @@
       margin: 1.5rem 0;
     }
   }
-  .library-list{
+  .library-list {
     display: flex;
     flex-direction: column;
-    
-    .library-options{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      border-top: 0.07rem solid rgba(255, 255, 255, 0.21); 
-      padding-top: 1.2rem;
-      padding-bottom: 1rem;
-      align-items: center;
-      
-      .library-optios-iconLabel{
+    color: white;
+    .link {
+      text-decoration: none;
+      .library-options {
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-top: 0.07rem solid rgba(255, 255, 255, 0.21);
+        padding-top: 1.2rem;
+        padding-bottom: 1rem;
         align-items: center;
-        span{
-          padding-left: 0.6rem;
-        }
-        .library-icon{
-          color: $R300;
-          stroke: $R300;
-          background-color: transparent;
+        color: white;
+        .library-optios-iconLabel {
+          display: flex;
+          align-items: center;
+          span {
+            padding-left: 0.6rem;
+            text-decoration: none;
+          }
+          .library-icon {
+            color: $R300;
+            stroke: $R300;
+            background-color: transparent;
+          }
         }
       }
-    }
-    .library-options:last-child {
-      border-bottom: 0.07rem solid rgba(255, 255, 255, 0.21); 
+      .library-options:last-child {
+        border-bottom: 0.07rem solid rgba(255, 255, 255, 0.21);
+      }
+
+
     }
   }
-  .library-album{
+  .library-album {
     padding-top: 2.5rem;
-    .library-album-container{
-      display:flex;
+    .library-album-container {
+      display: flex;
       flex-direction: column;
-      img{
+      img {
         width: 9rem;
         height: 13rem;
         border-radius: 0.25rem;
       }
     }
   }
-  
 }

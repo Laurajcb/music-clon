@@ -21,7 +21,7 @@ function Library() {
       <h4 className='library-main-title'>Library</h4>
 
       <article className='library-list'>
-        <Link to="/playList" >
+        <Link to="/playList"  className='link'>
           <section className='library-options'>
             <div className='library-optios-iconLabel'>
               <BsMusicNoteList className='library-icon' />
@@ -31,7 +31,7 @@ function Library() {
           </section>
         </Link>
 
-        <Link to="/artists">
+        <Link to="/artists" className='link'>
           <section className='library-options'>
             <div className='library-optios-iconLabel'>
               <PiMicrophoneStageFill className='library-icon' alt='micro' />
@@ -41,7 +41,7 @@ function Library() {
           </section>
         </Link>
 
-        <Link to="/songs">
+        <Link to="/songs" className='link'>
           <section className='library-options'>
             <div className='library-optios-iconLabel'>
               <IoMdMusicalNote className='library-icon' />
@@ -51,7 +51,7 @@ function Library() {
           </section>
         </Link>
 
-        <Link to="/downloaded">
+        <Link to="/downloaded" className='link'>
           <section className='library-options'>
             <div className='library-optios-iconLabel'>
               <img src={scroll} alt='Scroll' />

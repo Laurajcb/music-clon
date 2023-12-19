@@ -1,21 +1,20 @@
 import React from "react";
 
-import { BsThreeDots } from 'react-icons/bs'
+import { BsThreeDots } from 'react-icons/bs';
 
-import { TbPlayerTrackPrevFilled } from "react-icons/tb";
-import { GoDotFill } from "react-icons/go";
 import { CgPlayPause } from "react-icons/cg";
+import { GoDotFill } from "react-icons/go";
+import { TbPlayerTrackPrevFilled } from "react-icons/tb";
 
+import { IoVolumeLowSharp, IoVolumeMedium } from "react-icons/io5";
 import { TbPlayerTrackNextFilled } from "react-icons/tb";
-import { IoVolumeMedium } from "react-icons/io5";
-import { IoVolumeLowSharp } from "react-icons/io5";
 
 import { BsChatLeftQuoteFill } from "react-icons/bs";
-import { SiAirplayaudio } from "react-icons/si";
 import { RiListUnordered } from "react-icons/ri";
+import { SiAirplayaudio } from "react-icons/si";
 
-import album from '../../assets/img/album1.jpeg'
-import './SongReproducer.scss'
+import album from '../../assets/img/album1.jpeg';
+import './SongReproducer.scss';
 
 function SongReproducer() {
   return (
@@ -72,4 +71,4 @@ function SongReproducer() {
   )
 }
 
-export { SongReproducer }
+export { SongReproducer };

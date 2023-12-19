@@ -1,28 +1,21 @@
 import { React, useState } from "react";
-import { IoIosArrowBack } from 'react-icons/io'
-import { BsThreeDots } from 'react-icons/bs'
-import { AiOutlineMenu } from 'react-icons/ai'
-import { BsMusicNote } from 'react-icons/bs'
-import { BiSolidMusic } from 'react-icons/bi'
-import { BsFillPlayFill } from 'react-icons/bs'
-import { BsShuffle } from 'react-icons/bs'
-import { FiMenu } from 'react-icons/fi'
-import { BsFillArrowDownCircleFill } from 'react-icons/bs'
+import { AiOutlineMenu } from 'react-icons/ai';
+import { BiSolidMusic } from 'react-icons/bi';
+import { BsFillArrowDownCircleFill, BsFillPlayFill, BsMusicNote, BsShuffle, BsThreeDots } from 'react-icons/bs';
+import { FiMenu } from 'react-icons/fi';
+import { IoIosArrowBack } from 'react-icons/io';
 import { Link } from "react-router-dom";
 
 
-import { AiFillMinusCircle } from 'react-icons/ai'
-import { BiSolidTrashAlt } from 'react-icons/bi'
-import { BsMusicNoteList } from 'react-icons/bs'
-import { BsFastForwardBtnFill } from 'react-icons/bs'
-import { HiShare } from 'react-icons/hi'
-import { HiMiniMusicalNote } from 'react-icons/hi2'
-import { BsFillHeartFill } from 'react-icons/bs'
-import { AiTwotoneDislike } from 'react-icons/ai'
+import { AiFillMinusCircle, AiTwotoneDislike } from 'react-icons/ai';
+import { BiSolidTrashAlt } from 'react-icons/bi';
+import { BsFastForwardBtnFill, BsFillHeartFill, BsMusicNoteList } from 'react-icons/bs';
+import { HiShare } from 'react-icons/hi';
+import { HiMiniMusicalNote } from 'react-icons/hi2';
 
 
 
-import './UntitledPlaylist.scss'
+import './UntitledPlaylist.scss';
 
 
 

@@ -1,15 +1,13 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { IoIosArrowBack } from 'react-icons/io'
-import { AiOutlineCheck } from 'react-icons/ai'
-import { BsFillPlayFill } from 'react-icons/bs'
-import { BsShuffle } from 'react-icons/bs'
-import { BsFillArrowDownCircleFill } from 'react-icons/bs'
+import { AiOutlineCheck } from 'react-icons/ai';
+import { BsFillArrowDownCircleFill, BsFillPlayFill, BsShuffle } from 'react-icons/bs';
+import { IoIosArrowBack } from 'react-icons/io';
 
-import album from '../../assets/img/album1.jpeg'
+import album from '../../assets/img/album1.jpeg';
 
-import './Songs.scss'
+import './Songs.scss';
 
 function Songs() {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
@@ -180,4 +178,4 @@ function Songs() {
   )
 }
 
-export { Songs }
+export { Songs };

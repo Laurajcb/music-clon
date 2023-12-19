@@ -1,19 +1,19 @@
 import React from "react";
-import user from '../../assets/icons/PersonCircle.png'
-import { BsApple } from 'react-icons/bs'
-import { FiChevronRight } from 'react-icons/fi'
-import singer from '../../assets/img/album-karolG.jpeg'
-import  singer2 from '../../assets/img/karolG-album.jpeg'
-import  singer3 from '../../assets/img/dj.jpeg'
-import album1 from '../../assets/img/album1.jpeg'
-import album2 from '../../assets/img/music3.jpeg'
-import album3 from '../../assets/img/album3.jpeg'
-import music1 from '../../assets/img/music1.jpeg'
-import music2 from '../../assets/img/song1.jpeg'
-import music3 from '../../assets/img/music4.jpeg'
+import { BsApple } from 'react-icons/bs';
+import { FiChevronRight } from 'react-icons/fi';
+import user from '../../assets/icons/PersonCircle.png';
+import singer from '../../assets/img/album-karolG.jpeg';
+import album1 from '../../assets/img/album1.jpeg';
+import album3 from '../../assets/img/album3.jpeg';
+import singer3 from '../../assets/img/dj.jpeg';
+import singer2 from '../../assets/img/karolG-album.jpeg';
+import music1 from '../../assets/img/music1.jpeg';
+import album2 from '../../assets/img/music3.jpeg';
+import music3 from '../../assets/img/music4.jpeg';
+import music2 from '../../assets/img/song1.jpeg';
 
 
-import './ListenNow.scss'
+import './ListenNow.scss';
 
 
 function ListenNow() {
@@ -108,4 +108,4 @@ function ListenNow() {
   )
 }
 
-export { ListenNow }
+export { ListenNow };

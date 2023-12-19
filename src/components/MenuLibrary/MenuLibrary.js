@@ -1,20 +1,18 @@
 import React, { useState } from "react";
 
 
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
-import { MdQueueMusic } from "react-icons/md";
-import { PiMicrophoneStageFill } from 'react-icons/pi'
-import { IoAlbums } from "react-icons/io5";
+import { FaCheckCircle, FaRegCircle } from "react-icons/fa";
+import { IoMdMusicalNote } from 'react-icons/io';
+import { IoAlbums, IoHomeSharp } from "react-icons/io5";
 import { LiaTvSolid } from "react-icons/lia";
-import { IoMdMusicalNote } from 'react-icons/io'
-import { SlScreenDesktop } from "react-icons/sl";
-import { IoHomeSharp } from "react-icons/io5";
+import { MdQueueMusic } from "react-icons/md";
+import { PiMicrophoneStageFill } from 'react-icons/pi';
 import { RxHamburgerMenu } from "react-icons/rx";
-import { FaCheckCircle } from "react-icons/fa";
-import { FaRegCircle } from "react-icons/fa";
+import { SlScreenDesktop } from "react-icons/sl";
 
-import './MenuLibrary.scss'
+import './MenuLibrary.scss';
 
 
 function MenuLibrary() {
@@ -113,4 +111,4 @@ function MenuLibrary() {
   )
 }
 
-export { MenuLibrary }
+export { MenuLibrary };

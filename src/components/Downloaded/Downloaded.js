@@ -1,15 +1,14 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
-import { BsMusicNoteList } from 'react-icons/bs'
-import { PiMicrophoneStageFill } from 'react-icons/pi'
-import { IoMdMusicalNote } from 'react-icons/io'
-import { FiChevronRight } from 'react-icons/fi'
-import { IoIosArrowBack } from 'react-icons/io'
+import { BsMusicNoteList } from 'react-icons/bs';
+import { FiChevronRight } from 'react-icons/fi';
+import { IoIosArrowBack, IoMdMusicalNote } from 'react-icons/io';
+import { PiMicrophoneStageFill } from 'react-icons/pi';
 
-import album from '../../assets/img/album3.jpeg'
+import album from '../../assets/img/album3.jpeg';
 
-import './Downloaded.scss'
+import './Downloaded.scss';
 
 
 function Downloaded() {
@@ -75,4 +74,4 @@ function Downloaded() {
   )
 }
 
-export { Downloaded }
+export { Downloaded };

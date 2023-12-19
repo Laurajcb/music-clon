@@ -1,13 +1,12 @@
 import React from "react";
-import { useNavigate } from 'react-router-dom';
-import { IoIosArrowBack } from 'react-icons/io'
-import { AiOutlineSearch } from 'react-icons/ai'
-import { FaMicrophone } from 'react-icons/fa'
-import { BsMusicNoteList } from 'react-icons/bs'
-import { FiChevronRight } from 'react-icons/fi'
-import { Link } from "react-router-dom";
+import { AiOutlineSearch } from 'react-icons/ai';
+import { BsMusicNoteList } from 'react-icons/bs';
+import { FaMicrophone } from 'react-icons/fa';
+import { FiChevronRight } from 'react-icons/fi';
+import { IoIosArrowBack } from 'react-icons/io';
+import { Link, useNavigate } from 'react-router-dom';
 
-import './CreatedNewPlaylist.scss'
+import './CreatedNewPlaylist.scss';
 
 function CreatedNewPlaylist() {
   const navigate = useNavigate();
@@ -54,4 +53,4 @@ function CreatedNewPlaylist() {
   )
 }
 
-export { CreatedNewPlaylist }
+export { CreatedNewPlaylist };

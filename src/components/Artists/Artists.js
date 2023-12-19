@@ -1,13 +1,13 @@
 import React from "react";
-import { IoIosArrowBack } from 'react-icons/io'
+import { FaMicrophone } from 'react-icons/fa';
+import { IoIosArrowBack } from 'react-icons/io';
 import { Link } from "react-router-dom";
-import { FaMicrophone } from 'react-icons/fa'
-import artistsCover1 from '../../assets/img/aGrande.png'
-import artistsCover2 from '../../assets/img/duaLipa.png'
-import artistsCover3 from '../../assets/img/karolG.png'
+import artistsCover1 from '../../assets/img/aGrande.png';
+import artistsCover2 from '../../assets/img/duaLipa.png';
+import artistsCover3 from '../../assets/img/karolG.png';
 
 
-import './Artists.scss'
+import './Artists.scss';
 
 function Artists() {
   return (
@@ -138,4 +138,4 @@ function Artists() {
 }
 
 
-export { Artists }
+export { Artists };

@@ -1,12 +1,11 @@
 import { React, useState } from "react";
-import { IoIosArrowBack } from 'react-icons/io'
+import { AiOutlineCheck } from 'react-icons/ai';
+import { BsFillPlayFill, BsShuffle } from 'react-icons/bs';
+import { IoIosArrowBack } from 'react-icons/io';
 import { Link } from "react-router-dom";
-import { BsFillPlayFill } from 'react-icons/bs'
-import { BsShuffle } from 'react-icons/bs'
-import { AiOutlineCheck } from 'react-icons/ai'
-import album from '../../assets/img/album2.jpeg'
+import album from '../../assets/img/album2.jpeg';
 
-import './ArtisName.scss'
+import './ArtisName.scss';
 
 function ArtisName() {
 	const [isMenuVisible, setIsMenuVisible] = useState(false);
@@ -59,4 +58,4 @@ function ArtisName() {
 }
 
 
-export { ArtisName }
+export { ArtisName };

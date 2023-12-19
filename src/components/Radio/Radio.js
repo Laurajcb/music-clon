@@ -1,15 +1,15 @@
 import React from "react";
 
-import { BsApple } from 'react-icons/bs'
-import { IoMdPlayCircle } from "react-icons/io";
+import { BsApple } from 'react-icons/bs';
 import { FaNewspaper } from "react-icons/fa6";
+import { IoMdPlayCircle } from "react-icons/io";
 
-import image1 from '../../assets/img/Rectangle 27.png'
-import image2 from '../../assets/img/Rectangle 28.png'
-import image3 from '../../assets/img/Rectangle 29.png'
+import image1 from '../../assets/img/Rectangle 27.png';
+import image2 from '../../assets/img/Rectangle 28.png';
+import image3 from '../../assets/img/Rectangle 29.png';
 
 
-import './Radio.scss'
+import './Radio.scss';
 
 function Radio() {
   return (
@@ -122,4 +122,4 @@ function Radio() {
   )
 }
 
-export { Radio }
+export { Radio };

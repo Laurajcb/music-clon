@@ -1,9 +1,9 @@
 import React from "react";
-import { BsMusicNoteList } from 'react-icons/bs'
-import { AiFillPlusCircle } from 'react-icons/ai'
-import camera from '../../assets/icons/CameraFill.png'
+import { AiFillPlusCircle } from 'react-icons/ai';
+import { BsMusicNoteList } from 'react-icons/bs';
 import { Link } from "react-router-dom";
-import './ModalNewPlaylist.scss'
+import camera from '../../assets/icons/CameraFill.png';
+import './ModalNewPlaylist.scss';
 
 function ModalNewPlaylist() {
   return (
@@ -39,4 +39,4 @@ function ModalNewPlaylist() {
   )
 }
 
-export { ModalNewPlaylist }
+export { ModalNewPlaylist };

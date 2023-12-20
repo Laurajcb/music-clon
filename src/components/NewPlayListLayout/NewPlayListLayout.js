@@ -5,10 +5,10 @@ import { MainMenu } from "../MainMenu/MainMenu";
 
 function NewPlayListLayout() {
   return (
-    <>
+    <section className="NewPlayListLayout-container">
     <NewPlayList/>
     <MainMenu />
-    </>
+    </section>
   )
 }
 

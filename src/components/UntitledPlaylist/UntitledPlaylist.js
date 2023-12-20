@@ -26,6 +26,11 @@ function UntitledPlaylist() {
     setIsMenuVisible(!isMenuVisible);
   };
 
+  const handleMenuItemClick = () => {
+    setIsMenuVisible(false);
+  };
+
+
   return (
     <section className="UntitledPlaylist">
       <section className="UntitledPlaylist-header">
@@ -66,35 +71,35 @@ function UntitledPlaylist() {
             <button onClick={toggleMenu} className="UntitledPlaylist-btn-dots-menu"><BsThreeDots /></button>
             {isMenuVisible && (
               <section className="UntitledPlaylis-menu-dots">
-                <div className="UntitledPlaylis-menu-item">
+                <div className="UntitledPlaylis-menu-item" onClick={handleMenuItemClick}>
                   <p className="UntitledPlaylis-menu-dots-p red">Remove from Playlist</p>
                   <AiFillMinusCircle className="UntitledPlaylis-menu-dots-icon red" />
                 </div>
-                <div className="UntitledPlaylis-menu-item">
+                <div className="UntitledPlaylis-menu-item" onClick={handleMenuItemClick}>
                   <p className="UntitledPlaylis-menu-dots-p red">Delete from Library</p>
                   <BiSolidTrashAlt className="UntitledPlaylis-menu-dots-icon red" />
                 </div>
-                <div className="UntitledPlaylis-menu-item">
+                <div className="UntitledPlaylis-menu-item" onClick={handleMenuItemClick}>
                   <p className="UntitledPlaylis-menu-dots-p">Add to Playlist.....</p>
                   <BsMusicNoteList className="UntitledPlaylis-menu-dots-icon" />
                 </div>
-                <div className="UntitledPlaylis-menu-item">
+                <div className="UntitledPlaylis-menu-item" onClick={handleMenuItemClick}>
                   <p className="UntitledPlaylis-menu-dots-p">Play Next</p>
                   <BsFastForwardBtnFill className="UntitledPlaylis-menu-dots-icon" />
                 </div>
-                <div className="UntitledPlaylis-menu-item">
+                <div className="UntitledPlaylis-menu-item" onClick={handleMenuItemClick}>
                   <p className="UntitledPlaylis-menu-dots-p">SharePlay</p>
                   <HiShare className="UntitledPlaylis-menu-dots-icon" />
                 </div>
-                <div className="UntitledPlaylis-menu-item">
+                <div className="UntitledPlaylis-menu-item" onClick={handleMenuItemClick}>
                   <p className="UntitledPlaylis-menu-dots-p">ShowAlbum</p>
                   <HiMiniMusicalNote className="UntitledPlaylis-menu-dots-icon" />
                 </div>
-                <div className="UntitledPlaylis-menu-item">
+                <div className="UntitledPlaylis-menu-item" onClick={handleMenuItemClick}>
                   <p className="UntitledPlaylis-menu-dots-p">Love</p>
                   <BsFillHeartFill className="UntitledPlaylis-menu-dots-icon" />
                 </div>
-                <div className="UntitledPlaylis-menu-item">
+                <div className="UntitledPlaylis-menu-item" onClick={handleMenuItemClick}>
                   <p className="UntitledPlaylis-menu-dots-p">Suggest Less Like This</p>
                   <AiTwotoneDislike className="UntitledPlaylis-menu-dots-icon" />
                 </div>
@@ -104,8 +109,6 @@ function UntitledPlaylist() {
         </div>
       </section>
       <p>1 song, 3 minutes</p>
-
-
 
     </section>
   )

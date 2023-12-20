@@ -11,6 +11,10 @@ import music1 from '../../assets/img/music1.jpeg';
 import album2 from '../../assets/img/music3.jpeg';
 import music3 from '../../assets/img/music4.jpeg';
 import music2 from '../../assets/img/song1.jpeg';
+import cover1 from '../../assets/img/eladio.jpeg'
+import cover2 from '../../assets/img/cover.jpeg'
+import cover3 from '../../assets/img/cover-img.jpeg'
+
 
 
 import './ListenNow.scss';
@@ -46,7 +50,7 @@ function ListenNow() {
         <h3>New Songs Added</h3>
         <div className="ListenNow-slider-container">
           <section className="ListenNow-song">
-            <img src={ singer2} alt='singer' />
+            <img src={singer2} alt='singer' />
             <h5>Today's Music Hit</h5>
             <p>Apple Music Hits</p>
           </section>
@@ -56,9 +60,14 @@ function ListenNow() {
             <p>KAROL G</p>
           </section>
           <section className="ListenNow-song">
-            <img src={ singer3} alt='singer' />
+            <img src={singer3} alt='singer' />
             <h5>New Music Daily</h5>
             <p>Apple Music</p>
+          </section>
+          <section className="ListenNow-song">
+            <img src={cover1} alt='singer' />
+            <h5>Hola como vas</h5>
+            <p>Eladio Carrión</p>
           </section>
         </div>
       </article>
@@ -81,6 +90,11 @@ function ListenNow() {
             <h5>Chill Stationt</h5>
             <p>Apple Music Chill</p>
           </section>
+          <section className="ListenNow-song">
+            <img src={cover2} alt="album" />
+            <h5>Chill Stationt</h5>
+            <p>Apple Music Chill</p>
+          </section>
         </div>
       </article>
 
@@ -99,6 +113,11 @@ function ListenNow() {
           </section>
           <section className="ListenNow-song">
             <img src={music2} alt='singer' />
+            <h5>Sour</h5>
+            <p>Oliva</p>
+          </section>
+          <section className="ListenNow-song">
+            <img src={cover3} alt='singer' />
             <h5>Sour</h5>
             <p>Oliva</p>
           </section>

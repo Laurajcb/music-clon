@@ -5,6 +5,7 @@ import { BsFillArrowDownCircleFill, BsFillPlayFill, BsMusicNote, BsShuffle, BsTh
 import { FiMenu } from 'react-icons/fi';
 import { IoIosArrowBack } from 'react-icons/io';
 import { Link } from "react-router-dom";
+import ListImg from "../../assets/icons/List.png";
 
 
 import { AiFillMinusCircle, AiTwotoneDislike } from 'react-icons/ai';
@@ -32,7 +33,11 @@ function UntitledPlaylist() {
 
 
   return (
-    <section className="UntitledPlaylist">
+    <section className="UntitledPlaylist" onClick={() => {
+      if (isMenuVisible) {
+        handleMenuItemClick();
+      }
+    }}>
       <section className="UntitledPlaylist-header">
         <Link to="/" className="UntitlePlaylist-back">
           <IoIosArrowBack className="UntitlePlaylist-back-icon" />
@@ -43,10 +48,16 @@ function UntitledPlaylist() {
       </section>
       <div className="UntitledPlaylist-coverPl-container">
         <div className="UntitledPlaylist-coverPl">
+          <img
+            src={ListImg}
+            className="UntitledPlaylist-coverPl-menu"
+            alt="icon-music"
+          />
           <AiOutlineMenu className="UntitledPlaylist-coverPl-menu" />
         </div>
-        <FiMenu className="UntitledPlaylist-coverPl-menu2" />
-        <BsMusicNote className="UntitledPlaylist-coverPl-music-icon" />
+        <section>
+          <BsMusicNote className="UntitledPlaylist-coverPl-music-icon" />
+        </section>
       </div>
       <div className="UntitledPlaylist-text">
         <h2 className="UntitledPlaylist-text1">Untitled Playlist </h2>

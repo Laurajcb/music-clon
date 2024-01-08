@@ -36,13 +36,14 @@
     margin-top: 1rem;
     justify-content: center;
     align-items: center;
+    padding-left: 3rem;
 
     .UntitledPlaylist-coverPl {
-      width: 14.375rem;
-      height: 15rem;
       display: flex;
       justify-content: center;
       align-items: center;
+      width: 15rem;
+      height: 15rem;
       background-color: $bg100;
       flex-wrap: wrap;
 
@@ -64,8 +65,8 @@
     .UntitledPlaylist-coverPl-music-icon {
       font-size: 4rem;
       color: $B300;
-      position: absolute;
-      right: 51rem;
+      position: relative;
+      right: 7rem;
     }
   }
 
@@ -163,7 +164,7 @@
           color: $bg100;
           font-size: 0.9rem;
         }
-        .UntitledPlaylist-btn-dots-menu{
+        .UntitledPlaylist-btn-dots-menu {
           color: $W300;
           background-color: $black;
           border: none;
@@ -194,7 +195,7 @@
       padding: 0.5rem 0.625rem;
       justify-content: space-between;
       background-color: $bg100;
-      &:first-child{
+      &:first-child {
         border-top-left-radius: 0.5rem;
         border-top-right-radius: 0.5rem;
       }
